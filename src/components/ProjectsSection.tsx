@@ -60,8 +60,8 @@ export default function ProjectsSection() {
                 <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}> 
                   {p.live && p.live !== '#' && (
                     <span style={{
-                      padding: '7px 18px', background: '#E87C1E', color: '#fff',
-                      fontSize: '0.78rem', fontWeight: 700, borderRadius: 6,
+                      padding: '9px 28px', background: '#E87C1E', color: '#fff',
+                      fontSize: '0.88rem', fontWeight: 800, borderRadius: 6,
                     }}>
                       Live Site ↗
                     </span>
