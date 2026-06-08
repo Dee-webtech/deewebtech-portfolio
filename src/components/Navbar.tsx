@@ -25,7 +25,7 @@ export default function Navbar() {
 
   const navStyle: React.CSSProperties = {
     position: 'fixed', top: 0, left: 0, right: 0, zIndex: 200,
-    background: scrolled ? 'rgba(17,17,17,0.94)' : 'transparent',
+    background: scrolled ? 'rgba(54, 52, 52, 0.94)' : 'transparent',
     backdropFilter: scrolled ? 'blur(14px)' : 'none',
     borderBottom: scrolled ? '1px solid rgba(255,255,255,0.07)' : '1px solid transparent',
     transition: 'background 0.3s, backdrop-filter 0.3s',
@@ -46,10 +46,11 @@ export default function Navbar() {
       >
         <div style={innerStyle}>
           <a href="#home">
-            <span style={{ fontFamily: 'DM Sans', fontWeight: 900, fontSize: '1.8rem', letterSpacing: '-0.02em' }}>
-              <span style={{ color: '#E87C1E' }}>D</span>
-              <span style={{ color: '#f0ece4' }}>T</span>
-            </span>
+            <img
+              src="/dee-logo.png"        
+              alt="Developer Logo"
+              style={{ height: 90, width: 'auto', display: 'block' }}
+            />
           </a>
 
           <nav style={{ display: 'flex', gap: 36 }} className="dt-desk">

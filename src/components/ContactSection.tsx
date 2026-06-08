@@ -61,8 +61,11 @@ export default function ContactSection() {
               color: 'rgba(232,124,30,0.06)',
               display: 'flex',
             }}>
-              <span style={{ color: 'rgba(232,124,30,0.08)' }}>D</span>
-              <span style={{ color: 'rgba(240,236,228,0.05)' }}>T</span>
+              <img
+              src="/dee-logo.png"        
+              alt="Developer Logo"
+              style={{ height: 500, width: 'auto', display: 'block' }}
+            />
             </span>
           </div>
 

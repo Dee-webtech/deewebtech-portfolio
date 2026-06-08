@@ -18,10 +18,11 @@ export default function Footer() {
           borderRadius: 14,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
-          <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 900, fontSize: '2.2rem', letterSpacing: '-0.02em' }}>
-            <span style={{ color: '#E87C1E' }}>D</span>
-            <span style={{ color: '#f0ece4' }}>T</span>
-          </span>
+          <img
+              src="/dee-logo.png"        
+              alt="Developer Logo"
+              style={{ height: 110, width: 'auto', display: 'block' }}
+            />
         </div>
 
         {/* Nav links */}
