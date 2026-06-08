@@ -19,7 +19,6 @@ export default function TechStack() {
   return (
     <section id="tech-stack" style={{ position: 'relative', padding: '96px 0', overflow: 'hidden' }}>
 
-      {/* Static background — replace URL with your actual photo */}
       <img
         src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1400&h=700&fit=crop&q=80"
         alt=""
@@ -30,7 +29,6 @@ export default function TechStack() {
         }}
       />
 
-      {/* Dark overlay — matches your screenshot opacity */}
       <div style={{
         position: 'absolute', inset: 0,
         background: 'rgba(14,12,9,0.80)',

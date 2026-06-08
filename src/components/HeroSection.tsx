@@ -4,20 +4,17 @@ export default function Hero() {
   return (
     <section id="home" style={{ minHeight: '100vh', position: 'relative', display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
 
-      {/* Background photo — replace URL with your actual photo */}
       <img
         src="dee-profile.png"
         alt=""
         style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
       />
 
-      {/* Dark gradient overlay — left side darker so text is readable */}
       <div style={{
         position: 'absolute', inset: 0,
         background: 'linear-gradient(to right, rgba(10,8,6,0.92) 0%, rgba(10,8,6,0.75) 25%, rgba(10,8,6,0.35) 75%, rgba(10,8,6,0.15) 100%)',
       }} />
 
-      {/* Bottom fade */}
       <div style={{
         position: 'absolute', bottom: 0, left: 0, right: 0, height: '180px',
         background: 'linear-gradient(to top, #111111, transparent)',

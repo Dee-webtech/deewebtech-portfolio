@@ -48,7 +48,6 @@ export default function ContactSection() {
             borderRadius: 18, padding: '56px 52px',
           }}>
 
-          {/* Watermark DT logo behind the form — matches your screenshot */}
           <div style={{
             position: 'absolute', inset: 0,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -82,7 +81,6 @@ export default function ContactSection() {
             </p>
 
             <form onSubmit={handleSubmit}>
-              {/* First + Last name row */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 14 }} className="form-row">
                 <input
                   style={fieldStyle} type="text" placeholder="First Name" required

@@ -11,7 +11,6 @@ export default function WhySection() {
     <section style={{ background: '#0e0c09', padding: '96px 0' }}>
       <div style={{ maxWidth: 1240, margin: '0 auto', padding: '0 28px' }}>
 
-        {/* Two dashboard screenshots side by side — matches your screenshot */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 64 }} className="why-imgs">
           <div style={{ borderRadius: 12, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.07)' }}>
             <img
@@ -29,7 +28,6 @@ export default function WhySection() {
           </div>
         </div>
 
-        {/* Text content */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
