@@ -17,16 +17,16 @@ export default function AboutSection() {
           <h2 style={{
             fontFamily: 'Playfair Display, serif',
             fontSize: 'clamp(2rem, 3.5vw, 3rem)',
-            fontWeight: 800, lineHeight: 1.12, marginBottom: 28, maxWidth: 680,
+            fontWeight: 800, lineHeight: 1.12, marginBottom: 28,
           }}>
             Not Just a Developer — A Long-Term Growth Partner
           </h2>
 
-          <p style={{ color: '#b0a898', fontSize: '1rem', lineHeight: 1.85, marginBottom: 18, maxWidth: 680 }}>
-            I don't believe in building websites that just "look good." I build digital platforms that solve real problems — slow load times, poor structure, low conversions, and weak search visibility.
+          <p style={{ color: '#b0a898', fontSize: '1rem', lineHeight: 1.85, marginBottom: 18, }}>
+            I'll make it clear! I don't believe in building websites that just "look good." I build digital platforms that solve real problems such as slow load times, poor structure, low conversions, and weak search visibility. Before you hit that <strong>"return button"</strong>, consider hitting the <strong>"let's work together"</strong> button.
           </p>
 
-          <p style={{ color: '#b0a898', fontSize: '1rem', lineHeight: 1.85, marginBottom: 36, maxWidth: 680 }}>
+          <p style={{ color: '#b0a898', fontSize: '1rem', lineHeight: 1.85, marginBottom: 36,}}>
             With a strong foundation in frontend development and WordPress, I focus on performance, structure, and scalability — so your website works as hard as you do.
           </p>
 

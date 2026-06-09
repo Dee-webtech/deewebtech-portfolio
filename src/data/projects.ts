@@ -37,17 +37,17 @@ export const PROJECTS: Project[] = [
     live: 'https://deewebtech.kesug.com/',
   },
   {
-    title: 'Nigerian Aid Organisation',
-    desc: 'Sample Nigerian Aid Group website, well-structured and designed for easy navigation, visual clarity, and user engagement.',
-    tags: ['WordPress', 'Elementor'],
-    img: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&h=400&fit=crop&q=80',
-    live: '#',
+    title: "Content Writer's Portfolio",
+    desc: 'Transform ideas into appealing stories. Connect to directly your audience, and rise above your competition.',
+    tags: ['TypeScript', 'TailwindCSS', 'React'],
+    img: '/content-writer.jpg',
+    live: 'https://content-writer-portfolio-chi.vercel.app/', repo: 'https://github.com/Dee-webtech/Content-Writer-Portfolio'
   },
   {
-    title: 'Ecommerce Site',
-    desc: 'The site is now live and accessible. Additional updates and new features will be rolled out gradually.',
-    tags: ['React', 'CSS', 'MealDB API'],
-    img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&q=80',
-    live: '#', repo: '#',
+    title: 'Simple Dev Portfolio',
+    desc: 'Simple portfolio created with JavaScript.',
+    tags: ['HTML5', 'CSS', 'JavaScript'],
+    img: '/simple-portfolio.jpg',
+    live: 'https://portfolio-delight.vercel.app/', repo: 'https://github.com/Dee-webtech/portfolio-delight',
   },
 ]
