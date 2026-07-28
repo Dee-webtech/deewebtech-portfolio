@@ -10,8 +10,12 @@ const TECH = [
     skills: ['ReactJS', 'Tailwind CSS', 'TypeScript', 'HTML5', 'JavaScript'],
   },
   {
+    category: 'AI Automation',
+    skills: ['Make', 'n8n', 'GHL', 'Zapier', 'JavaScript'],
+  },
+  {
     category: 'Tools',
-    skills: ['WordPress', 'Github', 'Vercel', 'Figma', 'Framer', 'NodeJS'],
+    skills: ['WordPress', 'GitHub', 'Vercel', 'Figma', 'Framer', 'NodeJS'],
   },
 ]
 

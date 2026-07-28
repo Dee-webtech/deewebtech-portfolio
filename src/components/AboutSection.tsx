@@ -27,7 +27,7 @@ export default function AboutSection() {
           </p>
 
           <p style={{ color: '#b0a898', fontSize: '1rem', lineHeight: 1.85, marginBottom: 36,}}>
-            With a strong foundation in frontend development and WordPress, I focus on performance, structure, and scalability — so your website works as hard as you do.
+            With a strong foundation in frontend development WordPress, and AI automations, I focus on outstanding performance, structure, and scalability — so your website works twice harder than you do.
           </p>
 
           <a href="#contact" style={{

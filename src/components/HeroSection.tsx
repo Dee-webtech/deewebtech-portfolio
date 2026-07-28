@@ -39,7 +39,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.85, delay: 0.3 }}
           style={{ color: '#c8c0b4', fontSize: '1rem', lineHeight: 1.82, maxWidth: 500, marginBottom: 40 }}>
-          Hi, I'm Delight. I help businesses and startups turn ideas into fast, scalable, and conversion-focused websites. I build responsive, SEO optimized platforms designed to attract the right audience and grow internationally. Clean code, great performance, zero confusion —{' '}
+          Hi, I'm Delight. Allow me turn your ideas into fast, scalable websites and the AI-powered automations that keep them running without you lifting a finger. Responsive, SEO optimized, built to grow internationally. Here it's clean code, top WordPress designs, great performance, zero confusion —{' '}
           <strong style={{ color: '#f0ece4', fontWeight: 600 }}>just results.</strong>
         </motion.p>
 
