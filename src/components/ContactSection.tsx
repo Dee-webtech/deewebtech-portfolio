@@ -18,12 +18,33 @@ export default function ContactSection() {
   const update = (field: keyof FormState) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setForm(prev => ({ ...prev, [field]: e.target.value }))
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setSent(true)
-    setForm({ firstName: '', lastName: '', brand: '', email: '', message: '' })
-    setTimeout(() => setSent(false), 5000)
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+
+  try {
+    const response = await fetch(import.meta.env.VITE_MAKE_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        firstName: form.firstName,
+        lastName: form.lastName,
+        brand: form.brand,
+        email: form.email,
+        message: form.message,
+      }),
+    })
+
+    if (response.ok) {
+      setSent(true)
+      setForm({ firstName: '', lastName: '', brand: '', email: '', message: '' })
+      setTimeout(() => setSent(false), 5000)
+    } else {
+      console.error('Submission failed')
+    }
+  } catch (error) {
+    console.error('Error submitting form:', error)
   }
+}
 
   const fieldStyle: React.CSSProperties = {
     width: '100%', padding: '14px 16px',
